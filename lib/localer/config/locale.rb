@@ -6,7 +6,7 @@ module Localer
     class Locale
       extend Dry::Initializer
       option :exclude, default: -> { [] }
-      option :enabled, default: -> { true }
+      option :enabled, default: -> { false }
     end
   end
 end
